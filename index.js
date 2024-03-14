@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const app = express();
 
-const PORT = process.env.PORT;
+const PORT = 8888;
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY;
 
 app.use(cors());
