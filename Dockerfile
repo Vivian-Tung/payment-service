@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8888
 
-CMD ["node", "dist/index.js"]
+CMD ["node", "index.js"]
