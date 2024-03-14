@@ -8,9 +8,6 @@ RUN npm install
 
 COPY . .
 
-RUN npm install typescript -g
-RUN tsc
-
 EXPOSE 8080
 
 CMD ["node", "dist/index.js"]
